@@ -1,0 +1,23 @@
+# Blender MTL File: 'popped.blend'
+# Material Count: 2
+newmtl Material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.608337 0.311612 0.165275
+Ks 0.216418 0.216418 0.216418
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.928715 0.900339 0.815211
+Ks 0.119403 0.119403 0.119403
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /root/working-meshes/popcorn/popped.blend/kernel.png
+
+
