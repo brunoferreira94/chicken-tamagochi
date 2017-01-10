@@ -46,7 +46,7 @@ public class Actions : MonoBehaviour {
 			isAlive = false;
 		}
 
-		if (isAlive && galinha.activeInHierarchy && (pipoca.activeInHierarchy || cama.activeInHierarchy || banheira.activeInHierarchy)) {
+		if (galinha.activeInHierarchy && (pipoca.activeInHierarchy || cama.activeInHierarchy || banheira.activeInHierarchy)) {
 			galinhaAnimator.SetBool ("Andar",true);
 			if (pipoca.activeInHierarchy) {
 				galinha.transform.position -= (galinha.transform.position - pipoca.transform.position) * galinhaVelocity * Time.deltaTime;
